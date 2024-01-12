@@ -1,0 +1,16 @@
+@keyframes reveal-text {
+    from {
+      max-width: 0;
+    }
+    to {
+      max-width: 100%;
+    }
+  }
+  
+  .reveal-text-animation {
+    animation: reveal-text 2s forwards; /* Adjust timing as needed */
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+  }
