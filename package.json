@@ -23,6 +23,7 @@
     "react-dom": "^18",
     "siriwave": "^2.4.0",
     "srt-parser-2": "^1.2.3",
+    "pdfjs-dist": "^3.11.174",
     "uuid": "^9.0.1"
   },
   "devDependencies": {

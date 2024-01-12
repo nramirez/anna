@@ -11,8 +11,7 @@ export class AudioManager extends EventEmitter {
   captionsCheckInterval: NodeJS.Timeout | null = null
 
   queueAudio(key: string) {
-    // const url = `/api/talk?key=${key}`
-    const url = 'https://d38nvwmjovqyq6.cloudfront.net/va90web25003/companions/Foundations%20of%20Rock/5.01.mp3'
+    const url = `/api/talk?key=${key}`
     this.sound = new Howl({
       src: [url],
       // Set to true to force HTML5 Audio.
